@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    font-family: "Courier New", Courier, monospace;
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ggZAv9L/videoblocks-blue-smoke-background_spo9bv36l_thumbnail-full06.png);
+    background-attachment: fixed;
+}
+
+#header{
+    text-align: center;
+    height: 30%;
+    width: 75%;
+    float: right;
+    font-size: 2vw;
+    margin: 0;
+    padding-top: 2%;
+    font-size: 2.5vw;
+}
+
+img{
+    width: 60%;
+    margin-left: 20%;
+    padding: 10% 0%;
+}
+
+#navigation{
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    padding-top: 20%;
+    padding-left: 0%;
+    margin: 0;
+    background-color: black;
+    list-style-type: none;
+}
+
+#content{
+    width: 75%;
+    float: right;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+
+.rest::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+h1{
+    text-shadow: 3px 3px rgb(31, 31, 160);
+}
+
+h4{
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h3{
+    font-size: 2vw;
+}
+
+#about, #list, #contact{
+    margin: 0;
+    padding: 3% 0%;
+}
+
+#navigation li a{
+    display: block;
+    width: 100%;
+    padding: 10%;
+    text-align: left;
+    font-weight: bold;
+}
+
+#navigation li a:hover{
+    background-image: url(https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/ggZAv9L/videoblocks-blue-smoke-background_spo9bv36l_thumbnail-full06.png);
+}
+
+#about p{
+    color: rgba(255, 255, 255, 0.5);
+    text-indent: 8%;
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+#list ul{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+#contact ul{
+    list-style-type: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5vw;
+    font-style: italic;
+}
+
+#contact li{
+    padding: 3%; 
+}
+
+#contact li a{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5vw;
+    font-style: italic; 
+}
+
+
+
